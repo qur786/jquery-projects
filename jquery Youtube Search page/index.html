@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Youtube Search </title>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/script.js" ></script>
+		<script src="js/jquery.fancybox.min.js"></script>
+	</head>
+	<body>
+		<div id="menu-container">
+			<header>
+				<h1> Search <span> YouTube </span> </h1>
+				<p> Search any videos here </p>
+			</header>
+			<section>
+				<form id="search-form" onsubmit="return search()" name="search-form">
+					<div class="field-container">
+						<input type="search" id="query" class="search-field" placeholder="Search">
+						<input type="submit" id="search-btn" name="search-btn" value="">
+					</div>
+				</form>
+				
+				<ul id="results"></ul>
+				<div id="buttons"></div>
+			</section>
+			<footer>
+				<p> copyright &copy; All rights Reserved </p>
+			</footer>
+		</div>
+	</body>
+</html>

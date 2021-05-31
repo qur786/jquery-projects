@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"segoue",sans-serif;
+	line-height:1.6em;
+	color:#666;
+	background:#e1e1e1;
+	font-size:14px;
+}
+
+a{
+	color:#333;
+	text-decoration:none;
+}
+
+#menu-container{
+	width:740px;
+	margin:auto;
+	background:#fff;
+}
+
+
+.clearfix{
+	clear:both;
+}
+
+header{
+	padding:40px 20px;
+	background:#f4f4f4;
+}
+
+header h1{
+	color:#000;
+	margin-bottom:5px;
+}
+
+header span{
+	color:#dd2865;
+}
+
+section{
+	padding:30px 20px 20px 20px;
+}
+
+footer{
+	background:#f4f4f4;
+	text-align:center;
+	padding:20px;
+}
+
+#search-form{
+	margin-bottom:30px;
+	display:block;
+}
+
+.field-container{
+	display:block;
+	width:90%;
+	margin:0 auto;
+	position:relative;
+	
+}
+
+#search-btn{
+	filter:alpha(opacity=90);
+	opacity = 0.9;
+}
+
+.search-field{
+	display:block;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	width:45%;
+	padding:11px 7px;
+	padding-right:43px;
+	background:white;
+	color:#ccc;
+	border:1px #c8c8c8;
+	border-radius:1px;
+	font-size:1.4em;
+	border-bottom-color:#d2e2e7;
+	box-shadow:inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+}
+
+#search-btn{
+	position:absolute;
+	right:350px;
+	top:5px;
+	height:32px;
+	width:32px;
+	border:0;
+	cursor:pointer;
+	zoom:1;
+	background:transparent url(../image/search2.jpg);
+	background-size:cover;
+	filter:alpha(opacity=65);
+	opacity = 6.5;
+}
+
+// results styling
+
+#results{
+	padding:20px 0;
+	border-bottom:1px #ccc dotted;
+	
+	overflow:auto;
+}
+
+#results li{
+	margin-top:5px;
+	list-style:none;
+}
+.vid-description{
+	color:#666;
+}
+
+.left-list{
+	width:20%;
+	float:left;
+}
+
+.left-list img{
+	width:100%;
+	padding:5px;
+	border:1px #ccc solid;
+}
+
+.right-list{
+	width:75%;
+	float:right;
+	
+}
+
+.right-list .chtitle{
+	color:#dd2865;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.button-container{
+	margin-top:25px;
+}
+
+.page-button{
+	color:black;
+	background:#e1e1e1;
+	border: 1px solid black;
+	border-radius:5px;
+	padding:5px;
+	cursor:pointer;
+	margin-left:5px;
+}
+
+
+
