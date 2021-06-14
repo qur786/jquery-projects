@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+body{
+	font-family:'Tahoma',sans-serif;
+	color:#666;
+	font-size:16px;
+	background:#f9f9f9;
+	line-height:1.6em;
+}
+
+ul,li{
+	list-style:none;
+}
+
+#container{
+	width:60%;
+	margin:30px auto;
+	overflow:auto;
+}
+
+h1{
+	margin-bottom:20px;
+	text-align:center;
+}
+
+#title{
+	text-align:center;
+	color:white;
+	height:40px;
+	background:#f5ce42;
+	padding-top:13px;
+}
+
+.faq li{
+	padding:20px;
+}
+
+.faq li.q{
+	font-size:120%;
+	font-weight:bold;
+	cursor:pointer;
+	background:#eee;
+	border-bottom:1px solid #ddd;
+}
+
+.faq li.a{
+	background:#ddd;
+	display:none;
+}
+
+@media(max-width:640px){
+	#container{
+		width:90%;
+	}
+}
+
+.rotate{
+	transform:rotate(90deg);
+}
+
+
