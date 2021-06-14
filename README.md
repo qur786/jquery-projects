@@ -4,3 +4,4 @@ This repository contains all the mini projects that i have done in different lan
 List of Projects :
 1. Jquey Image Slider
 2. Jquery YouTube Searching and video Player
+3. Jquery FAQ Page
