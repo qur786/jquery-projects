@@ -16,5 +16,6 @@ List of Projects :
 ![Next Search Page](jquery%20Youtube%20Search%20page/Assets/screenshots/next%20search.png)
 #### Video Player
 ![Video Player](jquery%20Youtube%20Search%20page/Assets/screenshots/video.png)
-
-![Video Player](https://github.com/qur786/Mini-Projects/blob/main/jquery%20Youtube%20Search%20page/Assets/video/2021-06-19%2013-08-43%20(online-video-cutter.com).mp4)
+***
+## Video Demo
+![Video](jquery%20Youtube%20Search%20page/Assets/video/video.gif)
