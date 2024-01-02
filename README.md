@@ -1,4 +1,4 @@
-# Mini-Projects
+# JQuery Projects
 
 This repository serves as a showcase of my mini projects developed in various languages and technologies. I find these projects invaluable for experimentation and skill enhancement.
 
